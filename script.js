@@ -171,3 +171,7 @@ document.querySelectorAll('a[href]').forEach(link => {
         }
     });
 });
+// Hamburger Menü İşlevi
+document.getElementById('hamburger-btn').addEventListener('click', () => {
+    document.getElementById('mobil-menu').classList.toggle('active');
+});

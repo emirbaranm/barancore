@@ -205,3 +205,31 @@ button#tema-butonu {
     border-radius: 12px;
     margin: 20px 0;
 }
+/* Mobil İçin Hamburger Menü */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--metin);
+}
+
+@media (max-width: 768px) {
+    .hamburger { display: block; }
+    
+    .menu-linkleri {
+        display: none; /* Varsayılan olarak kapalı */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: var(--kutu-arkaplan);
+        padding: 20px 0;
+        box-shadow: 0 5px 10px var(--golge);
+    }
+    
+    .menu-linkleri.active { display: flex; }
+    .menu-linkleri a { margin: 15px 0; }
+}

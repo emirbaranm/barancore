@@ -14,20 +14,22 @@
     </div>
 
     <nav>
-        <div class="nav-sol">
-            <a href="index.html">
-                <img src="image_d8765c.png" alt="Baran Core Logo" class="nav-logo">
-            </a>
-            <div class="menu-linkleri">
-                <a href="index.html" data-dil="ana_sayfa">Ana Sayfa</a>
-                <a href="hakkimizda.html" data-dil="hakkimizda">Hakkımızda</a>
-                <a href="uygulamalar.html" data-dil="uygulamalar">Uygulamalar</a>
-                <a href="iletisim.html" data-dil="iletisim">İletişim</a>
-            </div>
-        </div>
+    <div class="nav-sol">
+        <a href="index.html">
+            <img src="image_d8765c.png" alt="Logo" class="nav-logo">
+        </a>
+        <!-- Hamburger Butonu -->
+        <button class="hamburger" id="hamburger-btn">☰</button>
         
-        <div class="ayarlar">
-            <button id="tema-butonu">🌙</button>
+        <div class="menu-linkleri" id="mobil-menu">
+            <a href="index.html" data-dil="ana_sayfa">Ana Sayfa</a>
+            <a href="hakkimizda.html" data-dil="hakkimizda">Hakkımızda</a>
+            <a href="uygulamalar.html" data-dil="uygulamalar">Uygulamalar</a>
+            <a href="iletisim.html" data-dil="iletisim">İletişim</a>
+        </div>
+    </div>
+    <div class="ayarlar">
+        <button id="tema-butonu">🌙</button>
             <select id="dil-secici">
                 <option value="tr">🇹🇷 Türkçe</option>
                 <option value="en">🇬🇧 English</option>
@@ -35,7 +37,7 @@
                 <option value="ru">🇷🇺 Русский</option>
                 <option value="zh">🇨🇳 中文</option>
             </select>
-        </div>
+    </div>
     </nav>
 
     <div class="container">
