@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Baran Core</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- AÇILIŞ ANİMASYONU EKRANI -->
+    <div id="loader">
+        <img src="image_d8765c.png" alt="Baran Core Yükleniyor" class="loader-logo">
+    </div>
+
+    <nav>
+        <div class="nav-sol">
+            <a href="index.html">
+                <img src="image_d8765c.png" alt="Baran Core Logo" class="nav-logo">
+            </a>
+            <div class="menu-linkleri">
+                <a href="index.html" data-dil="ana_sayfa">Ana Sayfa</a>
+                <a href="hakkimizda.html" data-dil="hakkimizda">Hakkımızda</a>
+                <a href="uygulamalar.html" data-dil="uygulamalar">Uygulamalar</a>
+                <a href="iletisim.html" data-dil="iletisim">İletişim</a>
+            </div>
+        </div>
+        
+        <div class="ayarlar">
+            <button id="tema-butonu">🌙</button>
+            <select id="dil-secici">
+                <option value="tr">🇹🇷 Türkçe</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="zh">🇨🇳 中文</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="kart" style="max-width: 600px; margin: 0 auto;">
+            <h1 data-dil="iletisim_baslik" style="color: var(--mavi-vurgu); text-align: center; border-bottom: 1px solid var(--cerceve); padding-bottom: 20px;">Bize Ulaşın</h1>
+            
+            <div style="font-size: 1.2em; line-height: 2.5; margin-top: 30px;">
+                <!-- Telefon -->
+                <p>
+                    <i class="fa-solid fa-phone" style="width: 35px; color: var(--mavi-vurgu); text-align: center;"></i>
+                    <strong data-dil="telefon" style="display: inline-block; width: 110px;">Telefon:</strong> 
+                    <span style="color: var(--metin-soluk);">0501 105 09 77</span>
+                </p>
+                
+                <!-- E-Posta -->
+                <p>
+                    <i class="fa-solid fa-envelope" style="width: 35px; color: var(--mavi-vurgu); text-align: center;"></i>
+                    <strong data-dil="eposta" style="display: inline-block; width: 110px;">E-Posta:</strong> 
+                    <a href="mailto:iletisim@barancore.com" style="color: var(--metin-soluk); text-decoration: none; transition: color 0.2s;">iletisim@barancore.com</a>
+                </p>
+                
+                <!-- Instagram -->
+                <p>
+                    <i class="fa-brands fa-instagram" style="width: 35px; color: #E1306C; text-align: center;"></i>
+                    <strong style="display: inline-block; width: 110px;">Instagram:</strong> 
+                    <a href="https://www.instagram.com/emirbar4n/" target="_blank" style="color: var(--metin-soluk); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#E1306C'" onmouseout="this.style.color='var(--metin-soluk)'">@emirbar4n</a>
+                </p>
+                
+                <!-- LinkedIn -->
+                <p>
+                    <i class="fa-brands fa-linkedin" style="width: 35px; color: #0077b5; text-align: center;"></i>
+                    <strong style="display: inline-block; width: 110px;">LinkedIn:</strong> 
+                    <a href="https://www.linkedin.com/in/muhammed-emir-baran-339939253/" target="_blank" style="color: var(--metin-soluk); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='#0077b5'" onmouseout="this.style.color='var(--metin-soluk)'">Muhammed Emir Baran</a>
+                </p>
+
+                <!-- GitHub -->
+                <p>
+                    <i class="fa-brands fa-github" style="width: 35px; color: var(--metin); text-align: center;"></i>
+                    <strong style="display: inline-block; width: 110px;">GitHub:</strong> 
+                    <a href="https://github.com/emirbaranm" target="_blank" style="color: var(--metin-soluk); text-decoration: none; transition: color 0.2s;" onmouseover="this.style.color='var(--metin)'" onmouseout="this.style.color='var(--metin-soluk)'">emirbaranm</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - Baran Core</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="loader">
+        <img src="image_d8765c.png" alt="Baran Core Yükleniyor" class="loader-logo">
+    </div>
+
+    <nav>
+        <div class="nav-sol">
+            <a href="index.html">
+                <img src="image_d8765c.png" alt="Baran Core Logo" class="nav-logo">
+            </a>
+            <div class="menu-linkleri">
+                <a href="index.html" data-dil="ana_sayfa">Ana Sayfa</a>
+                <a href="hakkimizda.html" data-dil="hakkimizda">Hakkımızda</a>
+                <a href="uygulamalar.html" data-dil="uygulamalar">Uygulamalar</a>
+                <a href="iletisim.html" data-dil="iletisim">İletişim</a>
+            </div>
+        </div>
+        <div class="ayarlar">
+            <button id="tema-butonu">🌙</button>
+            <select id="dil-secici">
+                <option value="tr">🇹🇷 Türkçe</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="zh">🇨🇳 中文</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Uzmanlık Alanları -->
+        <h1 data-dil="uzmanlik_baslik" style="text-align: center; margin-bottom: 50px;">Uzmanlık Alanlarımız</h1>
+
+        <div class="uygulama-grid">
+            <!-- Web Tasarım -->
+            <div class="uygulama-karti">
+                <img src="https://images.unsplash.com/photo-1547658719-da2b51169165?auto=format&fit=crop&w=400&q=80" class="uygulama-gorsel">
+                <div class="uygulama-icerik">
+                    <h3 data-dil="web_baslik">Web Tasarım & Geliştirme</h3>
+                    <p data-dil="web_aciklama">Modern, hızlı ve mobil uyumlu kurumsal web siteleri, e-ticaret çözümleri ve kişisel portfolyolar.</p>
+                </div>
+            </div>
+
+            <!-- Mobil Uygulama -->
+            <div class="uygulama-karti">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=400&q=80" class="uygulama-gorsel">
+                <div class="uygulama-icerik">
+                    <h3 data-dil="mobil_baslik">Mobil Uygulama</h3>
+                    <p data-dil="mobil_aciklama">iOS ve Android platformları için kullanıcı odaklı, akıcı ve yüksek performanslı uygulama çözümleri.</p>
+                </div>
+            </div>
+
+            <!-- Oyun Geliştirme -->
+            <div class="uygulama-karti">
+                <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=400&q=80" class="uygulama-gorsel">
+                <div class="uygulama-icerik">
+                    <h3 data-dil="oyun_baslik">Oyun Geliştirme</h3>
+                    <p data-dil="oyun_aciklama">Eğlenceyi teknolojiyle birleştiren, sürükleyici strateji ve mobil oyun projeleri.</p>
+                </div>
+            </div>
+
+            <!-- Yazılım Geliştirme -->
+            <div class="uygulama-karti">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&q=80" class="uygulama-gorsel">
+                <div class="uygulama-icerik">
+                    <h3 data-dil="yazilim_baslik">Yazılım Geliştirme</h3>
+                    <p data-dil="yazilim_aciklama">İhtiyaca özel yazılım mimarileri, veri tabanı çözümleri ve ölçeklenebilir arka plan sistemleri.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

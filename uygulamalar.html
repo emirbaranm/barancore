@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uygulamalar - Baran Core</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- AÇILIŞ ANİMASYONU EKRANI -->
+    <div id="loader">
+        <img src="image_d8765c.png" alt="Baran Core Yükleniyor" class="loader-logo">
+    </div>
+
+    <nav>
+        <div class="nav-sol">
+            <a href="index.html">
+                <img src="image_d8765c.png" alt="Baran Core Logo" class="nav-logo">
+            </a>
+            <div class="menu-linkleri">
+                <a href="index.html" data-dil="ana_sayfa">Ana Sayfa</a>
+                <a href="hakkimizda.html" data-dil="hakkimizda">Hakkımızda</a>
+                <a href="uygulamalar.html" data-dil="uygulamalar">Uygulamalar</a>
+                <a href="iletisim.html" data-dil="iletisim">İletişim</a>
+            </div>
+        </div>
+        
+        <div class="ayarlar">
+            <button id="tema-butonu">🌙</button>
+            <select id="dil-secici">
+                <option value="tr">🇹🇷 Türkçe</option>
+                <option value="en">🇬🇧 English</option>
+                <option value="de">🇩🇪 Deutsch</option>
+                <option value="ru">🇷🇺 Русский</option>
+                <option value="zh">🇨🇳 中文</option>
+            </select>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 data-dil="uyg_baslik" style="margin-bottom: 30px;">Geliştirdiğimiz Uygulamalar</h1>
+        
+        <div class="uygulama-grid">
+            
+            <div class="uygulama-karti">
+                <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=400&q=80" alt="App 1" class="uygulama-gorsel">
+                <div class="uygulama-icerik">
+                    <h3 data-dil="uyg1_isim">TaskMaster Pro</h3>
+                    <p data-dil="uyg1_aciklama">Günlük işlerinizi organize etmenizi sağlayan, minimalist ve yüksek performanslı görev yöneticisi.</p>
+                    <a href="#" class="buton" data-dil="incele_buton">Projeyi İncele</a>
+                </div>
+            </div>
+
+            <div class="uygulama-karti">
+                <img src="https://images.unsplash.com/photo-1526506114816-c9560f4eb120?auto=format&fit=crop&w=400&q=80" alt="App 2" class="uygulama-gorsel">
+                <div class="uygulama-icerik">
+                    <h3 data-dil="uyg2_isim">FitnessX</h3>
+                    <p data-dil="uyg2_aciklama">Kişisel spor hedeflerinizi takip edebileceğiniz, detaylı analizler sunan sağlık asistanı.</p>
+                    <a href="#" class="buton" data-dil="incele_buton">Projeyi İncele</a>
+                </div>
+            </div>
+
+            <div class="uygulama-karti">
+                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=400&q=80" alt="App 3" class="uygulama-gorsel">
+                <div class="uygulama-icerik">
+                    <h3 data-dil="uyg3_isim">GeoTracker</h3>
+                    <p data-dil="uyg3_aciklama">Anlık konum takibi ve rota optimizasyonu sunan gelişmiş harita servisi.</p>
+                    <a href="#" class="buton" data-dil="incele_buton">Projeyi İncele</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
