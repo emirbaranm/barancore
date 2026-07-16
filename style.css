@@ -115,6 +115,9 @@ nav {
     display: flex;
     gap: 35px;
     align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .menu-linkleri a {
@@ -359,6 +362,9 @@ h3 {
         padding: 0;
         box-shadow: 0 4px 12px var(--golge);
         border-bottom: 1px solid var(--cerceve);
+        list-style: none;
+        margin: 0;
+        z-index: 999;
     }
 
     .menu-linkleri.active {
@@ -370,6 +376,7 @@ h3 {
         padding: 14px 20px;
         font-size: 0.95rem;
         border-bottom: 1px solid var(--cerceve);
+        display: block;
     }
 
     .menu-linkleri a::after {
@@ -485,6 +492,8 @@ h3 {
         box-shadow: 0 4px 12px var(--golge);
         border-bottom: 2px solid var(--mavi-vurgu);
         z-index: 999;
+        list-style: none;
+        margin: 0;
     }
 
     .menu-linkleri.active {
